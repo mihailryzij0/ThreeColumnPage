@@ -1,14 +1,11 @@
-
-._container{
+._container {
   max-width: 1460px;
   margin: 0 auto;
-
 }
-header{
+header {
   background-color: green;
- 
 }
-.header-top{
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +14,7 @@ header{
   border-bottom: 2px solid #000;
 }
 
-.header-logo{
+.header-logo {
   height: 30px;
   width: 30px;
   background-color: #fff;
@@ -25,81 +22,73 @@ header{
   border: solid 1px #000;
   margin-left: 70px;
 }
-.header-nav{
+.header-nav {
   margin-right: 60px;
 }
 
-.header-list{
+.header-list {
   display: flex;
-
-
 }
 
-.header-list__item{
+.header-list__item {
   margin-left: 70px;
   list-style-type: none;
-
 }
 
-.header-list__item-link{
+.header-list__item-link {
   text-decoration: none;
   color: #fff;
 }
 
-.header-bottom{
+.header-bottom {
   background-color: green;
   display: flex;
   justify-content: space-around;
   padding-bottom: 50px;
-
-   
 }
-.header-baner{
+.header-baner {
   width: 600px;
   height: 300px;
   border: solid 1px #fff;
-
 }
 
-.header-content{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   flex-basis: 30%;
-}
-.main{
+.header-content {
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 30%;
 }
-.section-left, .section-right{
+.main {
+  display: flex;
+}
+.section-left,
+.section-right {
   flex-basis: 25%;
   padding-left: 15px;
   padding-right: 15px;
   background-color: yellow;
 }
-.section-centre{
+.section-centre {
   flex-basis: 50%;
   background-color: tomato;
   padding-left: 20px;
   padding-right: 20px;
-
 }
-.footer{
+.footer {
   display: flex;
   text-align: center;
   background-color: violet;
 }
-.footer__item{
+.footer__item {
   flex-basis: 24%;
   padding-left: 30px;
   padding-right: 30px;
-
 }
-.footer__item:nth-child(2){
-  padding-left: 0; 
+.footer__item:nth-child(2) {
+  padding-left: 0;
 }
-.footer__item:nth-child(3){
-  padding-left: 0; 
-  padding-right:0 ;
+.footer__item:nth-child(3) {
+  padding-left: 0;
+  padding-right: 0;
 }
